@@ -1,6 +1,6 @@
-<h1>Editing Todo</h1>
+<h1>Edit To Do Item</h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @todo %> |
-<%= link_to 'Back', todos_path %>
+<%= link_to 'View Item', @todo, class: "btn btn-default" %>
+<%= link_to 'Back to List', todos_path, class: "btn btn-default spaces" %>
