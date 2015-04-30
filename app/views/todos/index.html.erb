@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><%= link_to 'View List', todos_path %></li>
+  <li><%= link_to 'New To Do', new_todo_path %></li>
+</ul>
+
 <h1 id="title-text">Things To Do</h1>
 
 <table class="table table-hover">
