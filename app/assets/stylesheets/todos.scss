@@ -4,9 +4,24 @@
 
 .robot {
   height: 100px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .spaces {
   margin-left: 30px;
+}
+
+th {
+  font-size: 1.5em;
+}
+
+#title-text {
+  font-family: 'Ranchers', cursive;
+  font-size: 3.5em;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#title-nav-text {
+  font-family: 'Ranchers', cursive;
+  font-size: 2em;
 }
